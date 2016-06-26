@@ -1,0 +1,17 @@
+header {
+  background: #234567;
+  color: #fff;
+  padding: 5% 0;
+}
+input {
+  height: 40px;
+  width: 50%;
+}
+.btn-primary {
+  background: #ff9900;
+  border: none;
+  height: 44px;
+}
+#output {
+  padding: 50px 0 0 0;
+}
