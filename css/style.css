@@ -6,6 +6,7 @@ header {
 input {
   height: 40px;
   width: 50%;
+  color: #ff9900;
 }
 .btn-primary {
   background: #ff9900;
