@@ -1,0 +1,44 @@
+<!Doctype HTML >
+<html>
+<head>
+  <title>Ping Pong App</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.0.0.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Let's Play Ping Pong</h1>
+            <form id="ping">
+              <div class="form-group">
+                <input id="number"type="text">
+                <button class="btn btn-primary" type="submit">Play Ping Pong</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-lg-8">
+          <div id="output">
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4">
+          <h3>The Rules</h3>
+          <p>Ping Pong app will count up from 1 with the following exceptions: </p>
+          <ul>
+            <li>Numbers divisible by 3 are replaced with "ping"</li>
+            <li>Numbers divisible by 5 are replaced with "pong"</li>
+            <li>Numbers divisible by 15 are replaced with "pingpong"</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
